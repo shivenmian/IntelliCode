@@ -50,7 +50,7 @@ def chat(inputcmd, channel):
 		print("Could not parse")
 		raise
 
-def asksusi():
+def intellicode():
 	if client_slack.rtm_connect():
 		print("Connected")
 		while True:
@@ -62,4 +62,4 @@ def asksusi():
 		print("Connection failed")
 
 if __name__ == '__main__':
-	asksusi()
+	intellicode()
