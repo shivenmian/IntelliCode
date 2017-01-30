@@ -2,7 +2,7 @@
 
 IntelliCode is a slackbot I wrote in under an hour, which gives you instant coding answers! It returns answers taken up from StackOverflow (accepted answers / the most voted ones) for your queries. 
 
-Built this for Byldathon v10, IIIT Delhi.
+Built this for Byldathon v10, IIIT Delhi (came 2nd overall).
 
 ![alt text](http://i.imgur.com/XluzYd4.png "IntelliCode")
 
