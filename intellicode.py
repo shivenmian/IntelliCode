@@ -8,8 +8,9 @@ from google import search
 from lxml import html
 import cssselect
 
-botname = 'intellicode' 
-client_slack = SlackClient(config.slack_token['SLACK_TOKEN'])
+botname = '' 
+token = ''
+client_slack = SlackClient(token)
 
 def bot_id():
 	api_call = client_slack.api_call("users.list")
